@@ -1,0 +1,81 @@
+/* secundario.css */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana;
+}
+
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+nav {
+  float: left;
+  width: 20%;
+  height: 300px; 
+  background: #ccc;
+  padding: 20px;
+  font-size: 18px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 40%;
+  background-color: #f1f1f1;
+  height: 300px; 
+}
+
+/* limpar a flutuação após o section */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* limpar a flutuação após o header */
+header::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+img.logo {
+  width: 180px;
+}
+
+img.fachada {
+  width: 450px;
+}
+
+div {
+  float: left;
+  height: 200px;
+}
+
+figcaption {
+  font-family: 'Times New Roman';
+  font-style: italic;
+  font-weight: bolder;
+  font-size: 15px;
+ }
+
